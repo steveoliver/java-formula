@@ -21,6 +21,7 @@ java:
   amazon:
     # https://aws.amazon.com/corretto, Hotspot-based vm
     javaversion: 8.242.08.1
+    pkg:
       archive:
         source_hash: 3a614a0e32aa5324843781d1077aad7a   # linux x64 jdk
 
