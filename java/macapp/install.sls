@@ -22,7 +22,7 @@ java-package-macapp-download:
         - group
         - mode
   cmd.run:
-    - name: curl {{ j.pkg.cookieheader }} -Lo {{ j.dir.tmp }}/java-archive.dmg {{ j.pkg.macapp.source }}
+    - name: curl {{ j.pkg.cookieheader }} -Lo {{ j.dir.tmp }}/java-archive.dmg {{ j.pkg.macapp.sources }}
     - hide_output: true
     - unless:
       - test -f {{ j.pkg.macapp.name }}
